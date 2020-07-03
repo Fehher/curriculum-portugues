@@ -8,7 +8,7 @@
 
 ### Perfil
 
-Tenho atuado com desenvolvimento de software, em especial com a plataforma .NET e recentemente estou estudando Rust. Meu foco de atuacao tem sido construir sistemas distribuidos, Integrações com plataformas externas, desenvolver sistemas que suportem e manipule grandes volume de dados, escrever codigo eficiente e de alta performance, paralelismo, concorrencia, implementando modelos arquiteturais (Hexagonal,Clean), cloud design patterns (Competing consumers, sidecars, batch-processing, cqrs), arquitetura orientanda a eventos, domain-driven-design e troubleshooting de aplicacoes (ETW, Perfview, dotnet-Benchmark e Pareto)
+Tenho atuado com desenvolvimento de software, em especial com a plataforma .NET e recentemente estou estudando Rust. Meu foco de atuacao tem sido construir sistemas distribuidos, Integrações entre sistemas, desenvolver sistemas que suportem e manipule grandes volume de dados, escrever codigo eficiente e de alta performance, paralelismo, concorrencia, implementando modelos arquiteturais (Hexagonal,Clean), cloud design patterns (Competing consumers, sidecars, batch-processing, cqrs), arquitetura orientanda a eventos, domain-driven-design e troubleshooting de aplicacoes (ETW, Perfview, dotnet-Benchmark e Pareto)
 
 ### Formação Acadêmica
 
@@ -28,6 +28,10 @@ Projetos:
   *Desafios técnicos e patterns utilizados:*
      - Diagnosticar problemas de performance
      - Principio de Pareto
+     - Identificar e Separação do projeto em contextos delimitados
+     - Tipos de colaboração entre servicos
+     - Integração com sistema europeu de Vatnumbers
+     - Docker AWS Fairgate
     
 
 - **GVAT - Importacao de Batches em Lote**: Processo de importação de transações, que consiste em ler arquivos excel com milhões de transações, processar, gerar analises sobre os dados, limpeza, e disponibilizar para geração de relatórios.
@@ -38,6 +42,7 @@ Projetos:
      - Work Queue system e Competing Consumers
      - Concorrência, Paralelismo, DDD e serviços distribuídos
      - Arquitetura Hexagonal
+     - Docker AWS Fairgate
 
 ---
 **LTM - Loyalty & Trade Management**, Líder Técnico do Time de Catálogo - *2015/04 até 2018/01*
@@ -46,6 +51,10 @@ Projeto:
 - **Importação de Produtos**: Sistema que se conecta a vários parceiros na busca por informações de produtos.
 O principal objetivo nesse processo, e se conectar através de protocolos especificos em um determinado parceiro e obter dados sobre os produtos e disponibilidade. Essas integrações ocorrem com grandes parceiros de mercado como Via Varejo, B2W, Magazine luiza entre outros.
 **Tecnologias do Projeto:** Linguagem C#, SQL Server, SOLR, ELK, Cloud Patterns, Hangfire e API.
+
+  *Desafios técnicos e patterns utilizados:*
+   - Integração com diversos sistemas externos
+   - Capacidade de importar e processar milhões de produtos
 
 - **Catálogo de Produtos**:
 Microserviço responsavél por exibir os catalogos de produtos, filtrar dados, exibir informações sobre disponibilidade, aplicar filtros personalizados por parceiros.
@@ -134,8 +143,8 @@ Algumas Tecnologias, Bibliotecas, Ferramentas, Ambientes e Técnicas adquiridos,
     - Domain Driven Design, Design Patterns, Arquitetura Onion, Hexagonal e Clean
 - *Analise e Performance*: 
     - dotnet Benchamark, ETW Profiler, Perfview, Speedscope e Windbg.
-- *Ambientes / CI/ CD*:
-    - Azure, Docker e AWS
+- *Ambientes CI/ CD*:
+    - Azure, Docker, AWS, GIT
 - *Linguagens*:
     - C#, Rust
 - *Services Bus*

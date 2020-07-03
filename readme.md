@@ -8,7 +8,7 @@
 
 ### Perfil
 
-Tenho atuado com desenvolvimento de software, em especial com a plataforma .NET e recentemente estou estudando Rust. Meu foco de atuacao tem sido construir sistemas distribuidos, Integrações entre sistemas, desenvolver sistemas que suportem e manipule grandes volume de dados, escrever codigo eficiente e de alta performance, paralelismo, concorrencia, implementando modelos arquiteturais (Hexagonal,Clean), cloud design patterns (Competing consumers, sidecars, batch-processing, cqrs), arquitetura orientanda a eventos, domain-driven-design e troubleshooting de aplicacoes (ETW, Perfview, dotnet-Benchmark e Pareto)
+Tenho atuado com desenvolvimento de software, em especial com a plataforma .NET e recentemente estou estudando Rust. Meu foco de atuação tem sido construir sistemas distribuído, Integrações entre sistemas, desenvolver sistemas que suportem e manipule grandes volume de dados, escrever código eficiente e de alta performance, paralelismo, concorrência, implementando modelos arquiteturais (Hexagonal, Clean), cloud design patterns (Competing Consumers, Sidecar, Batch-Processing, CQRS), Arquitetura Orientada a Eventos, Domain-driven-design e Troubleshooting de aplicações usando ferramentas de profiler and métricas (ETW, Perfview, dotnet-Benchmark tools, Windbg e Pareto)
 
 ### Formação Acadêmica
 
